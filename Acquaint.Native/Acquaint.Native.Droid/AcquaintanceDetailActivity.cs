@@ -169,6 +169,10 @@ namespace Acquaint.Native.Droid
             
             _GoogleMap.UiSettings.MapToolbarEnabled = true;
 
+            _GoogleMap.UiSettings.ZoomControlsEnabled = true;
+            _GoogleMap.UiSettings.SetAllGesturesEnabled(true);
+            //TESTING TESTING
+
             // attempt to get the lat and lon for the address
             _GeocodedLocation = await GetPositionAsync();
 
