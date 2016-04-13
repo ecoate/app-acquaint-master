@@ -43,6 +43,7 @@ namespace Acquaint.Native.Droid
 
 		protected override async void OnCreate(Bundle savedInstanceState)
 		{
+            //EMILY TEST TWO MWHAHAHAHAHHAHAHA
 			base.OnCreate(savedInstanceState);
 
 			var acquaintanceDetailLayout = LayoutInflater.Inflate(Resource.Layout.AcquaintanceDetail, null);
@@ -165,6 +166,8 @@ namespace Acquaint.Native.Droid
 
 		public async void OnMapReady(GoogleMap googleMap)
 		{
+
+            //EMILY TEST MWAHAHAHHAHAHAHA
             _GoogleMap = googleMap;
             
             _GoogleMap.UiSettings.MapToolbarEnabled = true;
